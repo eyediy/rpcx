@@ -3,7 +3,7 @@ package codec
 import (
 	"testing"
 
-	"github.com/smallnest/rpcx"
+	"github.com/eyediy/rpcx"
 )
 
 type GencodeArith int

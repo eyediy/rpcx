@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/rcrowley/go-metrics"
-	"github.com/smallnest/rpcx"
-	"github.com/smallnest/rpcx/plugin"
+	"github.com/eyediy/rpcx"
+	"github.com/eyediy/rpcx/plugin"
 )
 
 type Args struct {

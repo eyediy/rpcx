@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/smallnest/rpcx"
-	"github.com/smallnest/rpcx/clientselector"
+	"github.com/eyediy/rpcx"
+	"github.com/eyediy/rpcx/clientselector"
 )
 
 type Args struct {

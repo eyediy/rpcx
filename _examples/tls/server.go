@@ -4,7 +4,7 @@ import (
 	"crypto/tls"
 	"log"
 
-	"github.com/smallnest/rpcx"
+	"github.com/eyediy/rpcx"
 )
 
 type Args struct {

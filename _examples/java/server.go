@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/smallnest/rpcx"
-	"github.com/smallnest/rpcx/codec"
+	"github.com/eyediy/rpcx"
+	"github.com/eyediy/rpcx/codec"
 )
 
 type Args struct {

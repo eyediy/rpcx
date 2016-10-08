@@ -3,7 +3,7 @@ package main
 import (
 	"time"
 
-	"github.com/smallnest/rpcx"
+	"github.com/eyediy/rpcx"
 )
 
 type Args struct {

@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/smallnest/rpcx"
+	"github.com/eyediy/rpcx"
 )
 
 // ServerPeer is
