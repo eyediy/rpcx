@@ -4,9 +4,9 @@ import (
 	"flag"
 	"time"
 
-	"github.com/rcrowley/go-metrics"
 	"github.com/eyediy/rpcx"
 	"github.com/eyediy/rpcx/plugin"
+	"github.com/rcrowley/go-metrics"
 )
 
 type Args struct {
@@ -30,7 +30,7 @@ func (t *Arith) Error(args *Args, reply *Reply) error {
 }
 
 var addr = flag.String("s", "127.0.0.1:8972", "service address")
-var e = flag.String("e", "http://127.0.0.1:2379", "etcd URL")
+var e = flag.String("e", "http://120.26.77.17:7001", "etcd URL")
 var n = flag.String("n", "Arith", "Service Name")
 
 func main() {

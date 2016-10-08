@@ -18,7 +18,7 @@ type Reply struct {
 	C int `msg:"c"`
 }
 
-var e = flag.String("e", "http://127.0.0.1:2379", "etcd URL")
+var e = flag.String("e", "http://120.26.77.17:7001", "etcd URL")
 var n = flag.String("n", "Arith", "Service Name")
 
 func main() {
