@@ -2,6 +2,7 @@ package main
 
 import (
 	"flag"
+	"fmt"
 	"time"
 
 	"github.com/eyediy/rpcx"
@@ -22,6 +23,7 @@ type Arith int
 
 func (t *Arith) Mul(args *Args, reply *Reply) error {
 	reply.C = args.A * args.B
+	fmt.Print(".")
 	return nil
 }
 

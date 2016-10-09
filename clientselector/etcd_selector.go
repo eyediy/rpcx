@@ -48,6 +48,7 @@ func NewEtcdClientSelector(etcdServers []string, basePath string, sessionTimeout
 		SelectMode:      sm,
 		dailTimeout:     dailTimeout,
 		clientAndServer: make(map[string]*rpc.Client),
+		metadata:	 make(map[string]string),
 		rnd:             rand.New(rand.NewSource(time.Now().UnixNano()))}
 
 	selector.start()
@@ -135,7 +136,6 @@ func (s *EtcdClientSelector) pullServers() {
 			var servers []string
 			for _, n := range resp.Node.Nodes {
 				servers = append(servers, strings.TrimPrefix(n.Key, s.BasePath+"/"))
-
 			}
 			s.Servers = servers
 
