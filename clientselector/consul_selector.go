@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/eyediy/rpcx"
 	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/rpcx"
 )
 
 // ConsulClientSelector is used to select a rpc server from consul.
